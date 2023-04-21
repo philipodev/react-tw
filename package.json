@@ -2,9 +2,12 @@
   "name": "react-tw",
   "version": "1.0.0",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/react-tw.cjs.js",
   "module": "./dist/react-tw.es.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/react-tw.es.js",
@@ -35,6 +38,7 @@
     "react-dom": "^18.2.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.0",
+    "vite-plugin-dts": "^2.3.0",
     "vitest": "^0.30.1"
   }
 }
