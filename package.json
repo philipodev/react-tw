@@ -16,6 +16,7 @@
     "test": "vitest run src",
     "test:watch": "vitest src",
     "coverage": "vitest run --coverage",
+    "prepare": "npm run build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "peerDependencies": {
