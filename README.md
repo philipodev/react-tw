@@ -5,6 +5,20 @@
 * Written in Typescript for type safety
 * Tiny bundle size (`0.4kb`)
 
+## Installation
+
+```bash
+npm install react-tw --save
+```
+
+```bash
+yarn add react-tw
+```
+
+```bash
+pnpm add react-tw
+```
+
 ## Why 
 
 We all can acknowledge what a mess your react components quickly turns into when starting to add all these tailwind classes to your divs 🥲
